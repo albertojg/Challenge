@@ -1,5 +1,6 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
+    //center the map at Singapore
     center: {
       lat: 1.3521,
       lng: 103.8198
