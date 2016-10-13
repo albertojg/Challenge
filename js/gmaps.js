@@ -1,7 +1,9 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
-    // center: {lat: -33.8688, lng: 151.2195},
-      center: {lat: 1.3521, lng: 103.8198},
+    center: {
+      lat: 1.3521,
+      lng: 103.8198
+    },
     zoom: 10
   });
   var input = (document.getElementById('pac-input'));
@@ -22,7 +24,6 @@ function initMap() {
       map.fitBounds(place.geometry.viewport);
     } else {
       map.setCenter(place.geometry.location);
-      // map.setZoom(17);  // Why 17? Because it looks good.
     }
 
 
