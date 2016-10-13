@@ -7,6 +7,9 @@ Auto-suggestions are displayed in a dropdown list and the user can select the de
 ##API used
 Google Places API
 
+##Usage
+Enter a location in the input field to see the autocomplete, autosuggest and type-ahead functionality being demonstrated. 
+
 ###Link
 You can access the project at:
 https://anupamadh.github.io/Challenge/
